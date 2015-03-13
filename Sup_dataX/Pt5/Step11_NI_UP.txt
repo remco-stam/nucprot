@@ -1,0 +1,8 @@
+proteinGroups.nucl.LFQ.intensity.8hrsNI.Rep1	proteinGroups.nucl.LFQ.intensity.8hrsNI.Rep2	proteinGroups.nucl.LFQ.intensity.8hrsNI.Rep3	proteinGroups.nucl.LFQ.intensity.24hrsNI.Rep1	proteinGroups.nucl.LFQ.intensity.24hrsNI.Rep2	proteinGroups.nucl.LFQ.intensity.24hrsNI.Rep3
+Solyc00g019950.1.1	0	0	0	742390	1055200	825130
+Solyc01g097520.2.1	0	0	0	681020	1014000	240620
+Solyc02g093050.2.1	0	0	0	14988000	14997000	9791600
+Solyc03g115250.2.1	0	0	0	765720	542350	899270
+Solyc07g055710.2.1	0	0	0	1354000	1964700	1121600
+Solyc08g081400.2.1	0	0	0	1981500	956570	1209700
+Solyc11g010560.1.1	0	0	0	906570	777410	426050
