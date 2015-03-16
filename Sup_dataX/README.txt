@@ -48,7 +48,8 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	    Simplify the table, keep LFQ columns only: written to Step6_proteinLFQs.txt
 	    additional files written out: 
 	    Step6_proteinGroups_ID_nonucl.txt  
-	    >> This file is also supplied as "Supplementary file 6.txt",
+	    >> 	This file is also supplied as 
+	    	"Supplementary file 6.txt",
 	    Step6_proteinLFQ_nonucl.txt
 
 	NOTE: These data files were identified in Perseus (for proteins without missing values)
@@ -71,8 +72,8 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	
 	
 	>>> files for step 7 and step 8: 	8 hours are combined in "Supplementary file 9.txt"
-										24 hours are combined in "Supplementary file 10.txt"
-										
+						24 hours are combined in "Supplementary file 10.txt"
+
 ## Pt 4. Data filtering, non-nuclear comparisons
 
 9.  Comparisons for non nuclear proteins, as done in 7 
@@ -89,9 +90,8 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	Step10_eightUP.txt, Step10_eightDOWN.txt, Step10_twfrUP.txt, Step10_twfrDOWN.txt
 	
 	>> files for step 9 and step 10: 	8 hours combined in "Supplementary file 17.txt"
-										24 hours combined in "Supplementary file 18.txt"
-										
-										
+						24 hours combined in "Supplementary file 18.txt"
+
 ## Pt 5. Data filtering NI8 vs NI24 and I8 vs I24
 
 11.  Comparisons as done in 7 
@@ -110,9 +110,10 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	Step12_NI_DOWN.txt, Step12_NI_UP.txt, Step12_I_DOWN.txt, Step12_I_UP.txt
 	Step12_NI_DOWN_nonucl.txt, Step12_NI_UP_nonucl.txt, Step12_I_DOWN_nonucl.txt, Step12_I_UP_nonucl.txt
 	
-	>> Files for Step 11 and 12:	Nuclear:
-									Infected samples: combined in "Supplementary File 11.txt"
-									Non-Infected: combined in "Supplementary File 12.txt" 
-									Non Nuclear: 
-									Infected samples combined in "Supplementary File 19.txt"
-									Non-Infected: combined in "Supplementary File 20.txt"
+	>> Files for Step 11 and 12:	
+			Nuclear:
+			Infected samples: combined in "Supplementary File 11.txt"
+			Non-Infected: combined in "Supplementary File 12.txt" 
+			Non Nuclear: 
+			Infected samples combined in "Supplementary File 19.txt"
+			Non-Infected: combined in "Supplementary File 20.txt"
