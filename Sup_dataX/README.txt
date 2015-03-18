@@ -1,7 +1,6 @@
 Howden et al. TOMATO NUCLEAR PROTEOMICS
-The two Galaxy pipelines can be accessed via 
-http://ppserver/galaxy/u/remco/h/nuclear-proteomics ##### NEED UPDATING 
-http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
+The two Galaxy pipelines can downloaded from https://github.com/remco-stam/nucprot/ 
+
 
 ## Pt 1. Data preprocessing
 
@@ -29,7 +28,7 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	- Run on Galaxy: 
 	Wolf PSort (plant), NLStradamus, Predict NLS and NoD ran to detect nuclear localisations
 	- Concatenate lists, remove duplicate lines using count
-	- Saved as 140716_Nucl-IDs.txt 2534 genes
+	- Saved as 140716_Nucl-IDs.txt 2548 genes
 	
 5. Create Venn diagram, using Venny
 	- Sequence IDs are copied from lists in Galaxy pipeline and entered in Venny software
@@ -44,11 +43,11 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	         Step4_Nuclear_IDs.txt
 	- Run script to: 
 		Select only Nuclear IDs: output written to Step6_proteinGroups_ID_nucl.txt
-		>> This file is also supplied as "Supplementary file 5.txt"
+		>> This file is also supplied as "Supplementary file 2.txt"
 	    Simplify the table, keep LFQ columns only: written to Step6_proteinLFQs.txt
 	    additional files written out: 
 	    Step6_proteinGroups_ID_nonucl.txt  
-	    >> 	This file is also supplied as "Supplementary file 6.txt",
+	    >> This file is also supplied as "Supplementary file 3.txt",
 	    Step6_proteinLFQ_nonucl.txt
 
 	NOTE: These data files were identified in Perseus (for proteins without missing values)
@@ -70,10 +69,9 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	- Create Venn Diagram using protein names for each list (added to list of Step7)
 	
 	
-	>>> files for step 7 and step 8: 	
-			8 hours are combined in "Supplementary file 9.txt"
-			24 hours are combined in "Supplementary file 10.txt"
-
+	>>> files for step 7 and step 8: 	8 hours are combined in "Supplementary file 6.txt"
+						24 hours are combined in "Supplementary file 7.txt"
+										
 ## Pt 4. Data filtering, non-nuclear comparisons
 
 9.  Comparisons for non nuclear proteins, as done in 7 
@@ -89,10 +87,10 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	- Creates four files proteins UP/DOWN by at 8 and 24 hour
 	Step10_eightUP.txt, Step10_eightDOWN.txt, Step10_twfrUP.txt, Step10_twfrDOWN.txt
 	
-	>> files for step 9 and step 10: 	
-			8 hours combined in "Supplementary file 17.txt"
-			24 hours combined in "Supplementary file 18.txt"
-
+	>> files for step 9 and step 10: 	8 hours combined in "Supplementary file 14.txt"
+						24 hours combined in "Supplementary file 17.txt"
+										
+										
 ## Pt 5. Data filtering NI8 vs NI24 and I8 vs I24
 
 11.  Comparisons as done in 7 
@@ -111,10 +109,9 @@ http://ppserver/galaxy/u/remco/h/nuclear-proteomics-v2 ##### NEED UPDATING
 	Step12_NI_DOWN.txt, Step12_NI_UP.txt, Step12_I_DOWN.txt, Step12_I_UP.txt
 	Step12_NI_DOWN_nonucl.txt, Step12_NI_UP_nonucl.txt, Step12_I_DOWN_nonucl.txt, Step12_I_UP_nonucl.txt
 	
-	>> Files for Step 11 and 12:	
-			Nuclear:
-			Infected samples: combined in "Supplementary File 11.txt"
-			Non-Infected: combined in "Supplementary File 12.txt" 
-			Non Nuclear: 
-			Infected samples combined in "Supplementary File 19.txt"
-			Non-Infected: combined in "Supplementary File 20.txt"
+	>> Files for Step 11 and 12:	Nuclear:
+					Infected samples: combined in "Supplementary File 8.txt"
+					Non-Infected: combined in "Supplementary File 9.txt" 
+					Non Nuclear: 
+					Infected samples combined in "Supplementary File 15.txt"
+					Non-Infected: combined in "Supplementary File 16.txt"
