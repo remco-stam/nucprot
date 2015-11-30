@@ -1,2 +1,0 @@
-proteinGroups.nonucl.LFQ.intensity.8hrsI.Rep1	proteinGroups.nonucl.LFQ.intensity.8hrsI.Rep2	proteinGroups.nonucl.LFQ.intensity.8hrsI.Rep3	proteinGroups.nonucl.LFQ.intensity.24hrsI.Rep1	proteinGroups.nonucl.LFQ.intensity.24hrsI.Rep2	proteinGroups.nonucl.LFQ.intensity.24hrsI.Rep3
-Solyc04g081300.2.1	942850	832960	1381400	0	0	0
